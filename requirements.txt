@@ -1,0 +1,5 @@
+nltk
+spacy
+pandas
+numpy
+tqdm
