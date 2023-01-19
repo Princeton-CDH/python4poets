@@ -1,6 +1,4 @@
 import re,requests,os,sys,random
-import nltk
-import spacy
 cache_nouns = None
 
 ### strings
@@ -22,6 +20,14 @@ def tokenize(text):
 
 def _tokenize_gen(text):
     import nltk
+    
+    # make sure we have the tokenizer package
+    try:
+        nltk.data.find('tokenizers/punkt')
+    except LookupError:
+        nltk.download('punkt')
+
+
     for sent in nltk.sent_tokenize(text):
         for word in nltk.word_tokenize(sent):
             yield word
