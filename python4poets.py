@@ -1,3 +1,5 @@
+__version__ = '0.1'
+
 import re,requests,os,sys,random
 import nltk
 import spacy
