@@ -11,6 +11,7 @@ try:
     with open("requirements.txt") as f:
         requirements = [x.strip() for x in f.read().split('\n') if x.strip()]
 
+    print(find_packages())
 
 
     CLASSIFIERS = [
