@@ -6,6 +6,9 @@ try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt')
+    nltk.download('wordnet')
+    nltk.download('omw-1.4')
+
 
 
 cache_nouns = None
@@ -105,3 +108,14 @@ def quick_plot(x_list, y_list):
 def printm(x):
     from IPython.display import Markdown
     display(Markdown(x))
+
+
+
+# import these modules
+lemmatizer = None
+def lemmatize(word):
+    global lemmatizer
+    if lemmatizer is None:
+        from nltk.stem import WordNetLemmatizer
+        lemmatizer = WordNetLemmatizer()
+    return lemmatizer.lemmatize(word)
