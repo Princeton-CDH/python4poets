@@ -1,4 +1,13 @@
 import re,requests,os,sys,random
+import nltk
+
+# make sure we have the tokenizer package
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
+
 cache_nouns = None
 
 ### strings
@@ -19,15 +28,6 @@ def tokenize(text):
 
 
 def _tokenize_gen(text):
-    import nltk
-    
-    # make sure we have the tokenizer package
-    try:
-        nltk.data.find('tokenizers/punkt')
-    except LookupError:
-        nltk.download('punkt')
-
-
     for sent in nltk.sent_tokenize(text):
         for word in nltk.word_tokenize(sent):
             yield word
@@ -79,6 +79,12 @@ def get_list_of_nouns():
 
 def swap_words(text, swap):
     orig_words = tokenize(text)
+    swap = {
+        **dict((v,k) for k,v in swap.items()),
+        **dict((k.title(), v.title()) for k,v in swap.items()),
+        **dict((v.title(), k.title()) for k,v in swap.items()),
+        **swap, 
+    }
 
     new_words = [
         swap.get(orig_word, orig_word)
@@ -94,3 +100,8 @@ def quick_plot(x_list, y_list):
     fig, ax = plt.subplots()
     ax.plot(x_list, y_list, linewidth=2.0)
     plt.show()
+
+
+def printm(x):
+    from IPython.display import Markdown
+    display(Markdown(x))
