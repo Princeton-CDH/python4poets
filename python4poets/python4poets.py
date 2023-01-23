@@ -86,3 +86,11 @@ def swap_words(text, swap):
     ]
     
     return untokenize(new_words)
+
+
+def quick_plot(x_list, y_list):
+    import matplotlib.pyplot as plt
+    import numpy as np
+    fig, ax = plt.subplots()
+    ax.plot(x_list, y_list, linewidth=2.0)
+    plt.show()
