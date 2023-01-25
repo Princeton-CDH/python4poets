@@ -9,7 +9,7 @@ Repository of course code and materials for "Python for Poets" (Wintersession 20
 
 3. [Data Types II: Putting Things Together -- or, on Lists and Dictionaries](https://colab.research.google.com/github/Princeton-CDH/python4poets/blob/main/3_Lists_and_dictionaries.ipynb)
 
-4. [Conditionals / Functions.ipynb](https://colab.research.google.com/github/Princeton-CDH/python4poets/blob/main/4_Conditionals_Functions.ipynb)
+4. [Conditionals: The Whens and Ifs of Things](https://colab.research.google.com/github/Princeton-CDH/python4poets/blob/main/4_Conditionals_Functions.ipynb)
 
 5. [Functions and Oulipo](https://colab.research.google.com/github/Princeton-CDH/python4poets/blob/main/5_Functions_continued.ipynb)
 
