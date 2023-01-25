@@ -3,6 +3,8 @@ Repository of course code and materials for "Python for Poets" (Wintersession 20
 
 ### We are here: **github.com/Princeton-CDH/python4poets**
 
+[Register here for Day 2](https://cglink.me/2gi/c1924517112313550)
+
 ----
 
 ## Notebooks
