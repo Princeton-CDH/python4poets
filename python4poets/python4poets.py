@@ -1,4 +1,5 @@
 import re,requests,os,sys,random
+from collections import Counter
 import nltk
 
 # make sure we have the tokenizer package
