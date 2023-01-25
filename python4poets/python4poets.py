@@ -119,3 +119,17 @@ def lemmatize(word):
         from nltk.stem import WordNetLemmatizer
         lemmatizer = WordNetLemmatizer()
     return lemmatizer.lemmatize(word)
+
+
+
+def get_txt_from_url(url):
+    # download from site
+    import requests
+    req = requests.get(url)
+    req.encoding = req.apparent_encoding
+
+    # standardize new lines
+    text = req.text.replace('\r\n','\n').replace('\r','\n')
+
+    # replace whitespace surrounding
+    return text.strip()
