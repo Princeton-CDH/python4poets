@@ -8,6 +8,7 @@ except LookupError:
     nltk.download('punkt')
     nltk.download('wordnet')
     nltk.download('omw-1.4')
+    nltk.download('stopwords')
 
 
 
@@ -20,20 +21,24 @@ potter = potter_str = '''Harry had a thin face, knobbly knees, black hair and br
 
 ### functions
 
-
-
 def tokenize(text):
-    """
-    Split a text into tokens (words, morphemes we can separate such as
-    "n't", and punctuation).
-    """
-    return list(_tokenize_gen(text))
+    import nltk
+    return nltk.word_tokenize(text)
 
 
-def _tokenize_gen(text):
-    for sent in nltk.sent_tokenize(text):
-        for word in nltk.word_tokenize(sent):
-            yield word
+
+# def tokenize(text):
+#     """
+#     Split a text into tokens (words, morphemes we can separate such as
+#     "n't", and punctuation).
+#     """
+#     return list(_tokenize_gen(text))
+
+
+# def _tokenize_gen(text):
+#     for sent in nltk.sent_tokenize(text):
+#         for word in nltk.word_tokenize(sent):
+#             yield word
 
 
 def untokenize(words):
