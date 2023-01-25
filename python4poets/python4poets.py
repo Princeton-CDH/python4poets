@@ -2,6 +2,7 @@ import re,requests,os,sys,random
 from collections import Counter
 import pandas as pd
 import nltk
+from tqdm.auto import tqdm
 
 # make sure we have the tokenizer package
 try:
