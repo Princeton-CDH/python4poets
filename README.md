@@ -1,15 +1,8 @@
-# python4poets
-Repository of course code and materials for "Python for Poets" (Wintersession 2023, Princeton)
+# Python for Poets
 
-### We are here: **github.com/Princeton-CDH/python4poets**
-
-[Register here for Day 2](https://cglink.me/2gi/c1924517112313550)
-
-----
+This workshop provides an introduction to computer programming using the Python programming language. It is aimed at humanists with no programming experience.
 
 ## Notebooks
-
-### Day 1
 
 1. [Python for Poets](https://colab.research.google.com/github/Princeton-CDH/python4poets/blob/main/1_Python_for_Poets.ipynb)
 
@@ -17,12 +10,20 @@ Repository of course code and materials for "Python for Poets" (Wintersession 20
 
 3. [Data Types II: Putting Things Together -- or, on Lists and Dictionaries](https://colab.research.google.com/github/Princeton-CDH/python4poets/blob/main/3_Lists_and_dictionaries.ipynb)
 
-
-### Day 2
-
-
 4. [Conditionals: The Whens and Ifs of Things](https://colab.research.google.com/github/Princeton-CDH/python4poets/blob/main/4_Conditionals_Functions.ipynb)
 
 5. [Functions and Oulipo](https://colab.research.google.com/github/Princeton-CDH/python4poets/blob/main/5_Functions_continued.ipynb)
 
 6. [From Python to Poetry](https://colab.research.google.com/github/Princeton-CDH/python4poets/blob/main/6_Poem_use_case.ipynb)
+
+### Learning Python at Princeton
+
+Consider attending this upcoming workshop on October 5, 9, 11: [Introduction to Programming Using Python](https://cglink.me/2gi/r1935891).
+
+See live Python workshops [offered via PUL](https://libcal.princeton.edu/calendar/?t=d&q=python&cid=12260&cal=12260&inc=0).
+
+PICSciE/RC recommended books, videos and websites: [Python learning resources](https://researchcomputing.princeton.edu/external-online-resources/python).
+
+### Authorship
+
+The workshop was created by Ryan Heuser and Gian Duri Rominger in January 2023. The workshop was taught by Massimiliano Dalmasso in September 2023.
