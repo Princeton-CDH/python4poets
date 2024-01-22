@@ -28,4 +28,4 @@ PICSciE/RC recommended books, videos and websites: [Python learning resources](h
 
 ### Authorship
 
-The workshop was created by Ryan Heuser and Gian Duri Rominger in January 2023. The workshop was taught by Massimiliano Dalmasso in September 2023.
+This material was created by Ryan Heuser and Gian Duri Rominger in January 2023. The workshop was taught by Massimiliano Dalmasso in September 2023 and January 2024.
