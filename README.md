@@ -16,7 +16,7 @@ This workshop provides an introduction to computer programming using the Python 
 You can run the notebooks in your web browser without Colab or explicitly installing anything using Jupyterlite:
 
 - Step 1: [https://jdh4.github.io/python4poets/](https://jdh4.github.io/python4poets/)
-- Step 2: Double click on a notebook in the file browser on the left (e.g., '1_Python_for_Poets.ipynb')
+- Step 2: Double click on a notebook in the file browser on the left (e.g., `1_Python_for_Poets.ipynb`)
 
 ### Learning Python at Princeton
 
