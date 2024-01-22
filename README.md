@@ -11,6 +11,13 @@ This workshop provides an introduction to computer programming using the Python 
 5. [Functions and Oulipo](https://colab.research.google.com/github/Princeton-CDH/python4poets/blob/main/5_Functions_continued.ipynb)
 6. [From Python to Poetry](https://colab.research.google.com/github/Princeton-CDH/python4poets/blob/main/6_Poem_use_case.ipynb)
 
+### Colab not working?
+
+You can run the notebooks in your web browser without Colab or explicitly installing anything using Jupyterlite:
+
+- Step 1: [https://jdh4.github.io/python4poets/](https://jdh4.github.io/python4poets/)
+- Step 2: Double click on a notebook in the file browser on the left (e.g., '1_Python_for_Poets.ipynb')
+
 ### Learning Python at Princeton
 
 Consider attending this upcoming workshop on October 5, 9, 11: [Introduction to Programming Using Python](https://cglink.me/2gi/r1935891).
